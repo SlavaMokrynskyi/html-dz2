@@ -1,0 +1,79 @@
+#container{
+    width: 1200px;
+    position: relative;
+}
+#container:hover .image_1 img{
+    width: 100%;
+    transition: all 0.5s ease-in;
+    transform: scale(150%);
+}
+#container:hover .image_2 img{
+    width: 100%;
+    transition: all 0.5s ease-in;
+    transform: scale(150%);
+}
+#container:hover .black{
+    opacity: 50%;
+    scale: 2000%;
+}
+#container:hover .black_text{
+    transition: all 0.5s ease-in;
+    opacity: 50%;
+
+}
+.text_1{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+}
+.text_2{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+}
+.image_1{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+    overflow: hidden;
+}
+.image_1 img{
+    position: absolute;
+}
+.image_2{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    margin-top: 300px;
+    overflow: hidden;   
+}
+.image_2 img{
+    position: absolute;
+}
+.p_1{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 35%;
+    font-size: xx-large;
+}
+.p_2{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 35%;
+    font-size: xx-large;
+}
+.black{
+    opacity: 0;
+    position: absolute;
+    margin: 0%;
+}
+.black_text{
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    margin: 0px;
+    opacity: 0;
+}

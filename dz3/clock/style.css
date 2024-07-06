@@ -1,0 +1,32 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightseagreen;
+    border-radius: 50%;
+    position: relative;
+}
+#hrs{
+    width: 40%;
+    color: lightseagreen;
+    margin-top: 50%;
+    margin-right: 50%;
+    animation: 5s linear infinite rotate;
+    transform-origin: right;
+}
+#min{
+    position: absolute;
+    width: 49%;
+    color: lightseagreen;
+    margin-top: 50%;
+    margin-right: 50%;
+    animation: 3s linear infinite rotate;
+    transform-origin: right;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} 
